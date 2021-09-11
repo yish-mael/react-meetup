@@ -1,4 +1,4 @@
-import classes from './MeetUpItem.module.css';
+import classes from './MeetUpItem.module.scss';
 
 function MeetUpItem(props) {
     return (
@@ -11,7 +11,7 @@ function MeetUpItem(props) {
                 <address>{props.address}</address>
                 <p>{props.description}</p>
             </div>
-            <div className={classes.action}>
+            <div className={classes.actions}>
                 <button>To Favorites</button>
             </div>
         </li>
