@@ -5,7 +5,7 @@ import classes from './MainNavigation.module.scss';
 function MainNavigation() {
     return(
         <header className={classes.header}>
-            <div>Meetups Logo</div>
+            <div className={classes.logo}>Meetups Logo</div>
             <nav>
                 <ul>
                     <li>
